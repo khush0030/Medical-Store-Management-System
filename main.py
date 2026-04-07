@@ -5,7 +5,6 @@ from datetime import datetime
 con= mysql.connector.connect(
     host="localhost",
     user="root",
-    
     database="project"
 )
 if con.is_connected():
